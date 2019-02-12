@@ -1,0 +1,93 @@
+a{	
+	color: #dcdde1;
+	font-family: 'Advent Pro', sans-serif;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e1b12c;
+}
+
+body{
+	background-color: #060218;
+	color: #dcdde1;
+	max-width: 100%;
+	text-align: center;
+}
+
+footer p{
+	color: #e1b12c;
+	text-align:center;
+}
+
+h1{
+	color: #fbc531;
+	font-family: 'Poiret One', cursive;   
+	font-weight: 100;
+	text-shadow: 0 1px 2px #fbc531;
+}
+
+h2{
+	color: #e1b12c;
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: 400;
+}
+
+h3{
+	color: #fbc531;
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: 100;
+}
+
+hr{
+	background: rgb(11,3,45);
+	background: linear-gradient(180deg, rgba(2,6,24,1) 0%, rgba(0,57,115,1) 15%, rgba(124,124,93,1) 40%, rgba(0,57,115,1) 65%, rgba(2,6,24,1) 80%);
+	border:none;
+	height: 0.5em;
+	width: 98%;
+}
+
+img{
+	width: 50%;
+}
+
+p{
+	font-family: 'Marcellus', serif;
+	text-align: left;
+}
+
+.btn-top a{
+	border-right: 2px solid #dcdde1;
+	padding-right: 5px;
+
+}
+
+.contact-btn{
+	background-color: #dcdde1;
+	border: none;
+	color: #060218;
+	font-family: 'Poiret', sans-serif;
+	outline: none;
+	width: 35%;
+
+}
+
+.contact-btn:hover{
+	background-color: #e1b12c;
+}
+
+.container{
+	width: 90%;
+	margin: 0 5%;
+}
+
+.container a{
+	font-family: 'Marcellus', serif;
+}
+
+
+
+
+
+
+
