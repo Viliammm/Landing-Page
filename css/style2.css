@@ -47,17 +47,14 @@ hr{
 	background: linear-gradient(180deg, rgba(2,6,24,1) 0%, rgba(0,57,115,1) 15%, rgba(124,124,93,1) 40%, rgba(0,57,115,1) 65%, rgba(2,6,24,1) 80%);
 	border:none;
 	height: 0.5em;
-	margin: 100px auto;
+	margin: 6rem auto 4rem;
 	width: 98%;
-}
-
-img{
-	width: 50%;
 }
 
 p{
 	font-family: 'Marcellus', serif;
-	text-align: left;
+	font-size: 1.2rem;
+	letter-spacing: 0.15rem;
 }
 
 .btn-top a{
@@ -94,9 +91,13 @@ p{
 	font-weight: 600;
 }
 
+.lang-on{
+	color: #e1b12c;
+}
 
-
-
-
-
+.me-img{
+	border-radius: 7%;
+	width: 50%;
+	margin: 3rem auto;
+}
 
