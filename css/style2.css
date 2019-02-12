@@ -22,7 +22,7 @@ footer{
 footer a{
 	font-size: 1.1rem;
 	letter-spacing: 0.15rem;
-	margin: 0 3%;
+	margin: 0 5%;
 }
 
 footer p{
@@ -36,6 +36,7 @@ h1{
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
+	letter-spacing: 0.3rem;
 	/*text-shadow: 0 1px 2px #fbc531;*/
 }
 
@@ -44,6 +45,7 @@ h2{
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 3rem;
 	font-weight: 400;
+	letter-spacing: 0.2rem;
 }
 
 h3{
@@ -51,6 +53,7 @@ h3{
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 2rem;
 	font-weight: 100;
+	letter-spacing: 0.2rem;
 }
 
 hr{
@@ -131,3 +134,24 @@ p{
 .fourth p{
 	margin-top: 5rem;
 }
+
+
+
+
+/* ----- HEADER ------ */
+
+
+.header{
+	display: inline-block;
+	font-size: 1.2rem;
+	width: 90%;
+}
+
+.lang{
+	float: left;
+}
+
+.nav{
+	float: right;
+}
+
