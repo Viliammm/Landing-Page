@@ -73,16 +73,11 @@ p{
 	line-height: 1.8rem;
 }
 
-.btn-top a{
-	border-right: 2px solid #dcdde1;
-	padding-right: 5px;
-
-}
-
 .contact-btn{
 	background-color: #dcdde1;
 	border: none;
 	border-radius: 0.5rem;
+	/*box-shadow: 5px 5px #9fa1ad;*/
 	color: #060218;
 	font-family: 'Poiret One', sans-serif;
 	font-size: 1.2rem;
@@ -97,6 +92,8 @@ p{
 
 .contact-btn:hover{
 	background-color: #e1b12c;
+	padding: 2px 0 0 0;
+
 }
 
 .container{
@@ -147,28 +144,30 @@ p{
 
 
 .header{
-	background-color: blue;
 	font-size: 1.2rem;
+	padding-top: 1rem;
 	padding-bottom: 2rem; 
-	margin-left: 5%;
 	position: fixed;
-	top: 1rem;
-	width: 90%;
+	top: 0rem;
+	width: 100%;
 }
 
-.lang{
-	float: left;
+.header a{
+	border-right: 2px solid #dcdde1;
+	padding-right: 5px;
 }
 
 .nav{
 	float: right;
+	margin-right: 5%;
 }
 
+.lang{
+	float: left;
+	margin-left: 5%;
+}
 
-
-
-
-
-
-
+.hide{
+	display: none;
+}
 
