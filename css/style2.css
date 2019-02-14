@@ -93,6 +93,7 @@ p{
 .contact-btn:hover{
 	background-color: #e1b12c;
 	padding: 2px 0 0 0;
+	/*font-size: 1.15rem;*/
 
 }
 
@@ -114,10 +115,6 @@ p{
 	font-weight: 600;
 }
 
-.lang-on{
-	color: #e1b12c;
-}
-
 .me-img{
 	border-radius: 7%;
 	width: 50%;
@@ -137,16 +134,13 @@ p{
 	margin-top: 5rem;
 }
 
-
-
-
 /* ----- HEADER ------ */
 
-
 .header{
-	font-size: 1.2rem;
+	
+	font-size: 1.4rem;
 	padding-top: 1rem;
-	padding-bottom: 2rem; 
+	padding-bottom: 1rem; 
 	position: fixed;
 	top: 0rem;
 	width: 100%;
@@ -155,19 +149,48 @@ p{
 .header a{
 	border-right: 2px solid #dcdde1;
 	padding-right: 5px;
+	margin-right: 0;
 }
 
-.nav{
-	float: right;
-	margin-right: 5%;
+.hide{
+	background-color: #060218;
+	display: none;
+	z-index: 0;
 }
 
 .lang{
 	float: left;
 	margin-left: 5%;
+	text-align: right;
 }
 
-.hide{
-	display: none;
+/*
+.lang-on{
+	color: #e1b12c;
 }
+*/
+
+.nav{
+	float: right;
+	margin-right: 5%;
+	text-align: right;
+
+	
+}
+
+.nav td{
+	margin-right: 5%;
+
+	}
+table{
+	background-color: #060218;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
 
