@@ -4,67 +4,80 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Viliam</title>
-		<link rel="stylesheet" type="text/css" href="css/style2.css">
 		<link rel="icon" type="text/css" href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
 		<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,400,600|Marcellus|Poiret+One&amp;subset=latin-ext" rel="stylesheet">
+		<script type="text/javascript" src="js/jQuery/jquery-3.3.1.min.js"></script>	
 	</head>
 	<body>
 
 		<div id="top" class="header">
-			<div class="btn-top lang">
-				<a href="index.html">en</a>
-				<a href="index-cz.html" class="lang-on">cz</a>
-				<a href="index-sk.html">sk</a>
+			<div class="lang">
+				<table>
+					<tbody>
+						<tr>
+							<td><a href="index-cz.html" id="cz" class="lang-on">cz</a></td>
+						</tr>
+						<tr>
+							<td class="lang-hidden hide"><a href="index.html" id="en">en</a></td>
+						</tr>
+						<tr>
+							<td class="lang-hidden hide"><a href="index-sk.html" >sk</a></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
-			<div class="btn-top nav">
-				<a href="">Domů</a>
-				<a href="#who-am-i">Kdo jsem</a>
-				<a href="#my-work">Moje práce</a>
-				<a href="#contact">Kontakt</a>	
+			<div class="nav">
+				<table>
+					<tbody>
+						<tr>
+							<td><a href="#who-am-i">Kdo jsem</a></td>
+						</tr>
+						<tr>
+							<td class="nav-hidden hide"><a href="#my-work">Moje práce</a></td>
+						</tr>
+						<tr>
+							<td class="nav-hidden hide"><a href="#contact">Kontakt</a></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
-		<!--<div class="top-images">
-			<img src="images/Moon1.png" class="moon">
-			<img src="images/ursa major large.png" class="ursa-major">
-			<img src="images/cassiopeia.png" class="cassiopeia">
-			<img src="images/crux.png" class="crux">
-			<img src="images/cygnus.png" class="cygnus">
-			<img src="images/draco.png" class="draco">
-		</div>-->
-		<div class="top container">
-			<h1>Ahoj, jsem Viliam</h1>
+		<div class="first container">
+			<h1>Ahoj,<br>jsem<br><span class="h1-large">Viliam</span></h1>
 			<h2>jsem webový vývojář</h2>
 			<h3>vítejte na mých stránkách</h3>
 		</div>
 		<hr id="who-am-i">
-		<div  class="middle container">
+		<div  class="second container">
 			<h2>Kdo jsem?</h2>
-			<img src="images/me.jpeg" alt="me-img" class="me-img">
+			<img src="images/me.jpeg" alt="já-img" class="me-img">
 			<p class="about-me">Jsem webový vývojář samouk, momentálně se specializuji na front-end vývoj. Postupně se plánuji stát full-stack vývojářem, ale to ještě chvíli potrvá. Aktuálně sídlím v Praze. Mám roztomilou kočku, jmenuje se Františka. Její fotku najdete níže. Kromě psaní webových stránek rád čtu, snažím se dělat hudbu a miluji dobré jídlo. Více informací o tom co dělám najdete níže.</p>
+			<img src="images/frantiska.jpg" alt="kočka-img" class="cat-img">
 		</div>
 		<hr id="my-work">
-		<div class="middle container">
+		<div class="third container">
 			<h2>Moje práce</h2>
-			<p class="my-work">Příklady mé práce můžete najít <a href="projects-website/projects-cz.html">zde</a></p>
-			<p class="my-work">Jestli vás to zajímá tak moje CV můžete najít <a href="cv-website/cv-cz.html">zde</a></p>
-			<p class="my-work">Níže taky najdete odkaz na můj LinkedIn profil.</p>
+			<p>Příklady mé práce můžete najít <a href="projects-website/projects-cz.html">zde</a></p>
+			<p>Jestli vás to zajímá tak moje CV můžete najít <a href="cv-website/cv-cz.html">zde</a></p>
+			<p><a href="#footer">Níže</a> taky najdete odkaz na můj LinkedIn profil.</p>
 		</div>
 		<hr id="contact">
-		<div class="bottom container">
+		<div class="fourth container">
 			<h2>Kontaktujte mě</h2>
 			<p>Nejjednoduší způsob jak se se mnou spojit je zmáčknutím tlačítka níže.</p>
-			<button class="contact-btn"><a  href="mailto:vilko.kortis@gmail.com">Ozvi se</a></button>
+			<a  href="mailto:vilko.kortis@gmail.com"><button class="contact-btn">Ozvi se</button></a>
 			<p>Jestli preferujete telefonický kontakt, můžete mi zavolat na telefon +441 234 567 890.</p>
 			<p>Taky mě samozřejmě můžete kontaktovat prostředníctvím sociálních sítí. Odkazy najdete níže.</p>
 		</div>
-		<div class="footer">
+		<div id="footer" class="footer">
 			<footer>
 				<a href="https://www.linkedin.com/in/viliam-kortis/" target="blank">LinkedIn</a>
-				<a href="#">Moje stránka</a>
 				<a href="https://www.facebook.com" target="blank">Facebook</a>
+				<a href="#">Nahoru</a>
 				<p>© Copyright: Aladár Chrochtochvost 2019</p>
 			</footer>
 		</div>
-
+	<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>
