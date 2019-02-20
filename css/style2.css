@@ -132,6 +132,10 @@ ul{
 	font-family: 'Marcellus', serif;
 }
 
+.cv h2{
+	font-size: 2.5rem;
+}
+
 .cv li{
 	line-height: 1.5rem;
 }
