@@ -204,7 +204,7 @@ ul{
 }
 
 .hide{
-	background-color: #060218;
+
 	display: none;
 	z-index: 0;
 }
@@ -212,15 +212,9 @@ ul{
 .lang{
 	float: left;
 	margin-left: 7.5%;
-	text-align: right;
 	max-width: 1.75rem;
+	text-align: right;
 }
-
-/*
-.lang-on{
-	color: #e1b12c;
-}
-*/
 
 .nav{
 	float: right;
@@ -285,6 +279,27 @@ ul{
 		width: 250px;
 	}
 
+	.hide{
+		display: inline-block;
+	}
 
+	.lang{
+		margin-left: 5%;
+		max-width: inherit;
+	}	
 
+	.nav{
+		margin-right: 5%;
+		max-width: inherit;
+	}
+
+	.lang-on{
+		color: #e1b12c;
 }
+}
+
+
+
+
+
+
