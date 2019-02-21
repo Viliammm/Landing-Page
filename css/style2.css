@@ -188,18 +188,12 @@ ul{
 /* ----- HEADER ------ */
 
 .header{
-
-background: #00416A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);   /*Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #E4E5E6, #00416A, #060218); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
+	background: #00416A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);   /*Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #E4E5E6, #00416A, #060218); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-size: 1.4rem;
 	height: 3rem;
 	padding-top: 1rem;
-	
 	width: 100%;
 }
 
@@ -219,6 +213,7 @@ background: linear-gradient(to bottom, #E4E5E6, #00416A, #060218); /* W3C, IE 10
 	float: left;
 	margin-left: 7.5%;
 	text-align: right;
+	max-width: 1.75rem;
 }
 
 /*
@@ -231,10 +226,7 @@ background: linear-gradient(to bottom, #E4E5E6, #00416A, #060218); /* W3C, IE 10
 	float: right;
 	margin-right: 7.5%;
 	text-align: right;
-}
-
-.nav td{
-	margin-right: 5%;
+	max-width: 6rem;
 }
 
 /* --- FOR TABLETS ---*/
