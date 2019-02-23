@@ -217,7 +217,7 @@ a::selection{
 	background: rgb(210,191,136);
 	background: linear-gradient(180deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
 	
-
+	font-size: 1.4rem;
 	height: 3rem;
 	padding-top: 1rem;
 	width: 100%;
