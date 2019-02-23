@@ -16,3 +16,10 @@ $(".nav").on("mouseenter", function(){
 $(".nav").on("mouseleave", function(){
 	$(".nav-hidden").addClass("hide")
 });
+
+
+
+
+$("body").on("click", function(){
+	$(".lang-hidden").addClass("hide")
+});
