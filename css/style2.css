@@ -18,11 +18,9 @@ body{
 }
 
 footer{
-	background: rgb(210,191,136);
-background: linear-gradient(0deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
-
-
-
+	background: rgba(2,0,18,1);
+	background: linear-gradient(0deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
+	
 	margin-top: 10rem;
 }
 
@@ -214,11 +212,8 @@ a::selection{
 /* ----- HEADER ------ */
 
 .header{
-background: rgb(153,144,117);
-background: linear-gradient(180deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
-
-
-
+	background-color: rgba(2,0,18,1);
+	background: linear-gradient(180deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
 
 	font-size: 1.4rem;
 	height: 3rem;
