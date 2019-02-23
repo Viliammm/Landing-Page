@@ -9,15 +9,21 @@ a:hover{
 }
 
 body{
-	background-color: #060218;
+	background-color: #020012;
 	color: #dcdde1;
 	max-width: 100%;
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 footer{
-	margin-top: 7rem;
+	background: rgb(210,191,136);
+background: linear-gradient(0deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
+
+
+
+	margin-top: 10rem;
 }
 
 footer a{
@@ -30,6 +36,7 @@ footer p{
 	color: #e1b12c;
 	font-size: 0.7rem;
 	margin-top: 2rem;
+	margin-bottom: 0;
 }
 
 h1{
@@ -48,6 +55,7 @@ h2{
 	font-size: 3rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
+
 }
 
 h3{
@@ -75,6 +83,10 @@ hr{
 	width: 90%;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 img{
 	border-radius: 7%;
 	width: 200px;
@@ -96,6 +108,15 @@ ul{
 	list-style: none;
 }
 
+.cat-imgs{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.cat-imgs img{
+	margin-bottom: 0;
+}
+
 .contact-btn{
 	background-color: #dcdde1;
 	border: none;
@@ -110,22 +131,18 @@ ul{
 	margin-top: 5rem;
 	outline: none;
 	width: 12rem;
-
 }
 
 
 .contact-btn:hover{
 	background-color: #e1b12c;
 	padding: 2px 0 0 0;
-	/*font-size: 1.15rem;*/
-
 }
 
 .container{
 	margin: 0 auto;
-	max-width: 550px;
+	max-width: 650px;
 	width: 90%;
-	
 }
 
 .container a{
@@ -185,13 +202,22 @@ ul{
 	margin-top: 5rem;
 }
 
+::selection{
+	background-color: #fbc531;
+	color: #060218;
+}
+
+a::selection{
+	color: #c23616;
+}
+
 /* ----- HEADER ------ */
 
 .header{
-	background: #00416A;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);   /*Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #E4E5E6, #00416A, #060218); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	font-size: 1.4rem;
+	background: rgb(210,191,136);
+	background: linear-gradient(180deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
+	
+
 	height: 3rem;
 	padding-top: 1rem;
 	width: 100%;
@@ -226,57 +252,121 @@ ul{
 /* --- FOR TABLETS ---*/
 
 
-@media screen and (min-width: 600px){
+@media only screen and (min-width: 480px){
 
 	footer a{
-		font-size: 1.3rem;
-		margin: 0 3%;
+		font-size: 1.2rem;
+		margin: 0 2%;
 	}
 
 	h1{
-		font-size: 6rem; 
-		letter-spacing: 0.5rem;
-		line-height: 7rem;
+		font-size: 5.5rem; 
+		letter-spacing: 0.4rem;
+		line-height: 6.5rem;
 		margin-bottom: 6rem;
 	}
-
-	h2{
-		font-size: 3.5rem;
-		line-height: 5rem;
-	}
-
 
 	p{
 		font-size: 1.3rem;
 	}
 
+	.cat-imgs{
+		max-width: inherit;
+	}
+
+	.cat-imgs img{
+		width: 180px;
+	}
+
+	.cat-img1{
+		margin-right: 5%;
+	}
+
 	.container{
-		margin: 0 auto; 
+		width: 85%;
+	}
+
+	.first h2{
+		line-height: 4rem;
+		margin-bottom: 5rem;
+	}
+}
+
+/* --- MICROBREAKPOINT FOR 600PX --- */
+
+@media only screen and (min-width: 600px){
+	
+	.cat-imgs{
+		max-width: inherit;
+	}
+
+	.cat-imgs img{
+		width: 180px;
+	}
+
+	.cat-img1{
+		margin-right: 10%;
+	}
+
+	.container{
 		width: 75%;
 	}
 
-	.header{
-		height: 3rem;
-		padding-top: 1rem;
-		padding-bottom: 1rem; 	
-}
-
-	.lang{
-		margin-left: 12.5%;
+	.container p{
+		line-height: 2rem;
 	}
 
-	.nav{
-		margin-right: 12.5%;
-}
+	.me-img{
+		width: 225px;
+	}
 }
 
 /* --- FOR BIGGER TABLETS ---*/
 
 
-@media screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 
-	img{
-		width: 250px;
+	footer a{
+		font-size: 1.3rem;
+		margin: 0 5%;
+	}
+
+	h1{
+		font-size: 6rem;
+		letter-spacing: 0.5rem;
+		line-height: 7rem;
+	}
+
+	h2{
+		font-size: 3.5rem;
+	}
+
+	h3{
+		font-size: 2.5rem;
+	}
+
+	p{
+		font-size: 1.35rem;
+	}
+
+	.cat-imgs img{
+		width: 200px;
+	}
+
+	.cat-img1{
+		margin-right: 20%;
+	}
+
+	.container{
+		width: 70%;
+	}
+	
+	.first h2{
+		margin-bottom: 7rem;
+	}
+
+	.header{
+		font-size: 1.5rem;
 	}
 
 	.hide{
@@ -284,22 +374,63 @@ ul{
 	}
 
 	.lang{
-		margin-left: 5%;
 		max-width: inherit;
 	}	
 
-	.nav{
-		margin-right: 5%;
-		max-width: inherit;
-	}
-
 	.lang-on{
 		color: #e1b12c;
+	}
+
+	.me-img{
+		float: left;
+		margin: 0.5rem 2rem 0.5rem 0; 
+	}
+
+	.nav{
+		max-width: inherit;
+	}
+	
+	.second p{
+		margin: 5rem 0 3rem;
+		text-align: left;
+	}
+	
 }
+
+@media only screen and (min-width: 992px){
+
+	hr{
+		margin: 8rem auto 6rem;
+	}
+
+	.cat-imgs img{
+		width: 200px;
+	}
+
+	.cat-img1{
+		margin-right: 25%;
+	}
+
+	.container{
+		width: 60%;
+	}
+
+	.container p{
+		line-height: 2.5rem;
+	}
+
+
 }
 
+@media only screen and (min-width: 1200px){
 
+	footer{
+		margin-top: 15rem;
+	}
 
+	.third p,
+	.fourth p{	
+		margin-top: 7rem;
+	}
 
-
-
+}
