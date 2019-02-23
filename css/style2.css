@@ -19,7 +19,9 @@ body{
 
 footer{
 	background: rgb(210,191,136);
-	background: linear-gradient(0deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
+background: linear-gradient(0deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
+
+
 
 	margin-top: 10rem;
 }
@@ -38,7 +40,7 @@ footer p{
 }
 
 h1{
-	color: #fbc531;
+	color: #e1b12c;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
@@ -201,7 +203,7 @@ ul{
 }
 
 ::selection{
-	background-color: #fbc531;
+	background-color: #e1b12c;
 	color: #060218;
 }
 
@@ -212,9 +214,12 @@ a::selection{
 /* ----- HEADER ------ */
 
 .header{
-	background: rgb(210,191,136);
-	background: linear-gradient(180deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
-	
+background: rgb(153,144,117);
+background: linear-gradient(180deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
+
+
+
+
 	font-size: 1.4rem;
 	height: 3rem;
 	padding-top: 1rem;
@@ -431,4 +436,11 @@ a::selection{
 		margin-top: 7rem;
 	}
 
+
+
+
+
 }
+
+
+
