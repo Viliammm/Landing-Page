@@ -21,5 +21,7 @@ $(".nav").on("mouseleave", function(){
 
 
 $("body").on("click", function(){
-	$(".lang-hidden").addClass("hide")
+	$(".lang-hidden").addClass("hide");
+	$(".nav-hidden").addClass("hide");
+	
 });
