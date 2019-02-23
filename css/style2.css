@@ -19,9 +19,7 @@ body{
 
 footer{
 	background: rgb(210,191,136);
-background: linear-gradient(0deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
-
-
+	background: linear-gradient(0deg, rgba(210,191,136,1) 1%, rgba(107,117,128,1) 23%, rgba(39,60,101,1) 52%, rgba(21,39,81,1) 62%, rgba(2,0,18,1) 100%);
 
 	margin-top: 10rem;
 }
@@ -40,7 +38,7 @@ footer p{
 }
 
 h1{
-	color: #fbc531;
+	color: red;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
