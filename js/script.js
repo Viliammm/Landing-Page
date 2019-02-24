@@ -28,7 +28,7 @@ $(".lang").on("mouseenter", function(){
 	$(".lang-hidden").removeClass("hide")
 });
 
-$("html").on("mouseenter", function(){
+$(document).on("mouseenter", function(){
 	$(".lang-hidden").addClass("hide")
 });
 
@@ -37,6 +37,6 @@ $(".nav").on("mouseenter", function(){
  	$(".nav-hidden").removeClass("hide")
 });
 
-$("html").on("mouseenter", function(){
+$(document).on("mouseenter", function(){
 	$(".nav-hidden").addClass("hide")
 });
