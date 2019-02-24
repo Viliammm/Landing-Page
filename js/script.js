@@ -28,7 +28,7 @@ $(".lang").on("mouseenter", function(){
 	$(".lang-hidden").removeClass("hide")
 });
 
-$("body").on("mouseenter", function(){
+$("h1").on("mouseenter", function(){
 	$(".lang-hidden").addClass("hide")
 });
 
