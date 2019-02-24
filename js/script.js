@@ -24,11 +24,11 @@
 // 	$(".lang-hidden").addClass("hide")
 // });
 
-$(".lang").on("click", function(){
+$(".lang").on("mouseenter", function(){
 	$(".lang-hidden").removeClass("hide")
 });
 
-$("body").on("click", function(){
+$("body").on("mouseenter", function(){
 	$(".lang-hidden").addClass("hide")
 });
 
