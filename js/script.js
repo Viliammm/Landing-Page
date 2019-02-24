@@ -24,7 +24,7 @@
 // 	$(".lang-hidden").addClass("hide")
 // });
 
-$(".lang").on("mouseenter", function(){
+$(".lang").on("click", function(){
 	$(".lang-hidden").removeClass("hide")
 });
 
