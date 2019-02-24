@@ -28,11 +28,15 @@ $(".lang").on("mouseenter", function(){
 	$(".lang-hidden").removeClass("hide")
 });
 
-$("h1").on("mouseenter", function(){
+$(".container").on("mouseenter", function(){
 	$(".lang-hidden").addClass("hide")
 });
 
 
 $(".nav").on("mouseenter", function(){
  	$(".nav-hidden").removeClass("hide")
+});
+
+$(".container").on("mouseenter", function(){
+	$(".nav-hidden").addClass("hide")
 });
