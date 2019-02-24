@@ -31,3 +31,8 @@ $(".lang").on("click", function(){
 $("body").on("click", function(){
 	$(".lang-hidden").addClass("hide")
 });
+
+
+$(".nav").on("mouseenter", function(){
+ 	$(".nav-hidden").removeClass("hide")
+});
