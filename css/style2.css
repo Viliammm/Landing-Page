@@ -39,7 +39,7 @@ footer p{
 
 h1{
 /* 	color: #e1b12c; */
-	color:red;
+	color:green;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
@@ -78,7 +78,7 @@ hr{
 	background: linear-gradient(180deg, rgba(2,6,24,1) 0%, rgba(0,57,115,1) 15%, rgba(124,124,93,1) 40%, rgba(0,57,115,1) 65%, rgba(2,6,24,1) 80%);
 	border:none;
 	height: 0.5em;
-	margin: 6rem auto 4rem;
+	margin-top: 6rem;
 	width: 90%;
 }
 
@@ -146,6 +146,10 @@ ul{
 
 .container a{
 	font-family: 'Marcellus', serif;
+}
+
+.container h2{
+	padding-top: 2rem;
 }
 
 .cv h2{
