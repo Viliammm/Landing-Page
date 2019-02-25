@@ -24,13 +24,13 @@ $(".container").on("mouseenter", function(){
 
 
 $("#nav-who-am-i").click(function() {
-    $('html, body, .container').animate({ 
+    $("body").animate({ 
     	scrollTop: $("#who-am-i").offset().top
     }, 1000);
 });
 
 $("#nav-my-work").click(function() {
-    $('html, body, .container').animate({ 
+    $("body").animate({ 
     	scrollTop: $("#my-work").offset().top
     }, 1000);
 });
