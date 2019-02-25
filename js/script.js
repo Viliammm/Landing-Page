@@ -2,7 +2,7 @@ $(".lang").on("mouseenter", function(){
 	$(".lang-hidden").removeClass("hide")
 });
 
-$(".container").on("mouseenter", function(){
+$(".container, body, .header").on("mouseenter", function(){
 	$(".lang-hidden").addClass("hide")
 });
 
