@@ -212,12 +212,7 @@ ul{
 }
 
 ::selection{
-	background-color: #e1b12c;
-	color: #060218;
-}
-
-a::selection{
-	color: #c23616;
+	background-color: #dcdde1;
 }
 
 /* ----- HEADER ------ */
@@ -438,3 +433,18 @@ a::selection{
 		margin-top: 7rem;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
