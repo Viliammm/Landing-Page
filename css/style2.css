@@ -20,9 +20,6 @@ body{
 footer{
 	background: rgba(2,0,18,1);
 	background: linear-gradient(0deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
-
-
-
 	margin-top: 10rem;
 }
 
@@ -46,7 +43,6 @@ h1{
 	font-weight: 100;
 	letter-spacing: 0.3rem;
 	padding-top: 3rem;
-	/*text-shadow: 0 1px 2px #fbc531;*/
 }
 
 h2{
@@ -235,9 +231,7 @@ p::selection{
 }
 
 .hide{
-
 	display: none;
-	z-index: 0;
 }
 
 .lang{
@@ -251,7 +245,7 @@ p::selection{
 	float: right;
 	margin-right: 7.5%;
 	text-align: right;
-	max-width: 6rem;
+	max-width: 7rem;
 }
 
 /* --- FOR TABLETS ---*/
@@ -435,4 +429,3 @@ p::selection{
 		margin-top: 7rem;
 	}
 }
-
