@@ -220,6 +220,7 @@ p::selection{
 	background: linear-gradient(180deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
 	font-size: 1.4rem;
 	height: 3rem;
+	letter-spacing: 0.05rem;
 	padding-top: 1rem;
 	width: 100%;
 }
@@ -237,15 +238,18 @@ p::selection{
 .lang{
 	float: left;
 	margin-left: 7.5%;
-	max-width: 1.75rem;
 	text-align: right;
+}
+
+.lang-on{
+		color: #e1b12c;
 }
 
 .nav{
 	float: right;
-	margin-right: 2.5%;
+	margin-right: 7.5%;
 	text-align: right;
-	max-width: 7rem;
+	max-width: 8rem;
 }
 
 /* --- FOR TABLETS ---*/
@@ -376,10 +380,6 @@ p::selection{
 		max-width: inherit;
 	}	
 
-	.lang-on{
-		color: #e1b12c;
-	}
-
 	.me-img{
 		float: left;
 		margin: 0.5rem 2rem 0.5rem 0; 
@@ -387,6 +387,10 @@ p::selection{
 
 	.nav{
 		max-width: inherit;
+	}
+
+	.nav-btn{
+		display: none;
 	}
 	
 	.second p{
