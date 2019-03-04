@@ -215,6 +215,14 @@ p::selection{
 
 /* ----- HEADER ------ */
 
+.arrow{
+	font-size: 0.6rem;
+	margin-left: 0.2rem;
+	position: relative;
+	top: -0.2rem;
+	
+}
+
 .header{
 	background: rgba(2,0,18,1);
 	background: linear-gradient(180deg, rgba(153,144,117,1) 0%, rgba(107,117,128,1) 22%, rgba(39,60,101,1) 56%, rgba(21,39,81,1) 71%, rgba(2,0,18,1) 100%);
@@ -242,14 +250,14 @@ p::selection{
 }
 
 .lang-on{
-	color: #e1b12c;
+		color: #e1b12c;
 }
 
 .nav{
 	float: right;
 	margin-right: 7.5%;
 	text-align: right;
-	max-width: 9rem;
+	max-width: 8.5rem;
 }
 
 /* --- FOR TABLETS ---*/
