@@ -7,7 +7,7 @@ $("body").on("mouseenter", function(){
 });
 
 
-$(".nav").on("mouseenter", function(){
+$(".nav-btn").on("mouseenter", function(){
  	$(".nav-hidden").removeClass("hide")
 });
 
