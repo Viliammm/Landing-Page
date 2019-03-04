@@ -242,14 +242,14 @@ p::selection{
 }
 
 .lang-on{
-		color: #e1b12c;
+	color: #e1b12c;
 }
 
 .nav{
 	float: right;
 	margin-right: 7.5%;
 	text-align: right;
-	max-width: 8rem;
+	max-width: 9rem;
 }
 
 /* --- FOR TABLETS ---*/
