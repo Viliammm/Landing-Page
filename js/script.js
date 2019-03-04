@@ -1,20 +1,24 @@
-$(".lang").on("mouseenter", function(){
-	$(".lang-hidden").removeClass("hide")
-});
+// $(".lang").on("mouseenter", function(){
+// 	$(".lang-hidden").removeClass("hide")
+// });
 
-$("body").on("mouseenter", function(){
-	$(".lang-hidden").addClass("hide")
-});
+// $("body").on("mouseenter", function(){
+// 	$(".lang-hidden").addClass("hide")
+// });
+
+
+// $(".nav-btn").on("mouseenter", function(){
+//  	$(".nav-hidden").removeClass("hide")
+// });
+
+// $("body").on("mouseenter", function(){
+// 	$(".nav-hidden").addClass("hide")
+// });
 
 
 $(".nav-btn").on("mouseenter", function(){
- 	$(".nav-hidden").removeClass("hide")
+ 	$(".nav-hidden").toggleClass("hide")
 });
-
-$("body").on("mouseenter", function(){
-	$(".nav-hidden").addClass("hide")
-});
-
 
 
 
