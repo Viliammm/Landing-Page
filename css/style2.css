@@ -98,6 +98,7 @@ span{
 
 ul{
 	list-style: none;
+	
 }
 
 .cat-imgs{
@@ -173,6 +174,10 @@ ul{
 	margin: 0 auto; 
 }
 
+.date{
+	max-width: 4rem;
+}
+
 .first{
 	margin-top: 5rem;
 }
@@ -186,8 +191,12 @@ ul{
 	border-radius: 5%;
 }
 
-.tech-ab ul{
-	padding-left: 0px;
+.primary{
+	padding-left: 0;
+}
+
+.secondary{
+	padding-left: 2rem;
 }
 
 .third a{
