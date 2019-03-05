@@ -70,6 +70,10 @@ h4{
 	line-height: 2rem;
 }
 
+h4 a{
+	font-family: 'Poiret One', cursive;
+}
+
 hr{
 	background: rgb(11,3,45);
 	background: linear-gradient(180deg, rgba(2,6,24,1) 0%, rgba(0,57,115,1) 15%, rgba(124,124,93,1) 40%, rgba(0,57,115,1) 65%, rgba(2,6,24,1) 80%);
