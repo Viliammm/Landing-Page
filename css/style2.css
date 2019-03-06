@@ -70,9 +70,6 @@ h4{
 	line-height: 2rem;
 }
 
-h4 a{
-	font-family: 'Poiret One', cursive;
-}
 
 hr{
 	background: rgb(11,3,45);
@@ -152,6 +149,10 @@ ul{
 
 .cv h2{
 	font-size: 2.5rem;
+}
+
+.cv-head a{
+	font-family: 'Poiret One', cursive;
 }
 
 .cv li{
