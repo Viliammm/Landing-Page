@@ -16,11 +16,19 @@
 // });
 
 
-$(".nav-btn").on("mouseenter", function(){
- 	$(".nav-hidden").toggleClass("hide")
+$(".nav-btn").on("click", function(){
+ 	$("#nav-who-am-i").slideDown("333");
+ 	setTimeout(function(){$("#nav-my-work").slideDown("333")},333);
+ 	setTimeout(function(){$("#nav-contact").slideDown("333", function(){
+ 		$(".arrow").text("▲")
+ 		})},666);
 });
 
-
+$(".nav-btn").on("click", function(){
+	$("#nav-contact").slideUp("333");
+	setTimeout(function(){$("#nav-my-work").slideUp("333")}, 333);
+	setTimeout(function(){$("#nav-who-am-i").slideUp("333")}, 666);
+})
 
 /* SLIDE */
 
