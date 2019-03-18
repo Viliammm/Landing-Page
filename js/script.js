@@ -42,3 +42,10 @@ $("#nav-contact").click(function() {
     	scrollTop: $("#contact").offset().top
     }, 1000);
 });
+
+$("#back-to-top").click(function() {
+	@('html, body').animate({
+		scrollTop: $("#top").offset().top
+	}, 1000);
+});
+
