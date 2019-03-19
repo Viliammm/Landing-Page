@@ -17,7 +17,7 @@
 
 
 
-
+alert("hi");
 
 
 $(document.body).on("mouseenter", '.nav-show', function(){
