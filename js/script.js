@@ -16,19 +16,29 @@
 // });
 
 
-$(".nav-btn").on("click", function(){
- 	$("#nav-who-am-i").slideDown("333");
- 	setTimeout(function(){$("#nav-my-work").slideDown("333")},333);
- 	setTimeout(function(){$("#nav-contact").slideDown("333", function(){
+
+
+
+
+$(document.body).on("click", '.nav-show', function(){
+	$("#nav-who-am-i").slideDown("250");
+ 	setTimeout(function(){$("#nav-my-work").slideDown("250")},250);
+ 	setTimeout(function(){$("#nav-contact").slideDown("250", function(){
  		$(".arrow").text("▲")
- 		})},666);
+ 		})},500);
+ 	$(this).removeClass();
+ 	$(this).addClass("nav-hide");
+}).on("click", '.nav-hide', function(){
+	console.log("hide clicked")
+	$("#nav-contact").slideUp("250");
+	setTimeout(function(){$("#nav-my-work").slideUp("250")}, 250);
+	setTimeout(function(){$("#nav-who-am-i").slideUp("250", function(){
+		$(".arrow").text("▼")
+	})}, 500);
+	$(this).removeClass();
+	$(this).addClass("nav-show");
 });
 
-$(".nav-btn").on("click", function(){
-	$("#nav-contact").slideUp("333");
-	setTimeout(function(){$("#nav-my-work").slideUp("333")}, 333);
-	setTimeout(function(){$("#nav-who-am-i").slideUp("333")}, 666);
-})
 
 /* SLIDE */
 
@@ -36,18 +46,18 @@ $(".nav-btn").on("click", function(){
 $("#nav-who-am-i").click(function() {
     $('html, body').animate({ 
     	scrollTop: $("#who-am-i").offset().top
-    }, 1000);
+    }, 750);
 });
 
 $("#nav-my-work").click(function() {
     $('html, body').animate({ 
     	scrollTop: $("#my-work").offset().top
-    }, 1000);
+    }, 750);
 });
 
 $("#nav-contact").click(function() {
     $('html, body').animate({ 
     	scrollTop: $("#contact").offset().top
-    }, 1000);
+    }, 750);
 });
 
