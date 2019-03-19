@@ -17,10 +17,10 @@
 
 
 
-alert("hi");
+alert("maybe now");
 
 
-$(document.body).on("mouseenter", '.nav-show', function(){
+$(".header").on("mouseenter", '.nav-show', function(){
 	$("#nav-who-am-i").slideDown("250");
  	setTimeout(function(){$("#nav-my-work").slideDown("250")},250);
  	setTimeout(function(){$("#nav-contact").slideDown("250", function(){
