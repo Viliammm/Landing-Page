@@ -60,4 +60,3 @@ $("#nav-contact").click(function() {
     	scrollTop: $("#contact").offset().top
     }, 750);
 });
-
