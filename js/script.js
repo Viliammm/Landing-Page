@@ -20,7 +20,7 @@
 
 
 
-$(document.body).on("click", '.nav-show', function(){
+$(document.body).on("mouseenter", '.nav-show', function(){
 	$("#nav-who-am-i").slideDown("250");
  	setTimeout(function(){$("#nav-my-work").slideDown("250")},250);
  	setTimeout(function(){$("#nav-contact").slideDown("250", function(){
@@ -28,7 +28,7 @@ $(document.body).on("click", '.nav-show', function(){
  		})},500);
  	$(this).removeClass();
  	$(this).addClass("nav-hide");
-}).on("click", '.nav-hide', function(){
+}).on("mouseenter", '.nav-hide', function(){
 	console.log("hide clicked")
 	$("#nav-contact").slideUp("250");
 	setTimeout(function(){$("#nav-my-work").slideUp("250")}, 250);
