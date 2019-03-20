@@ -1,46 +1,39 @@
-// $(".lang").on("mouseenter", function(){
-// 	$(".lang-hidden").removeClass("hide")
-// });
+// NAV SLIDE
 
-// $("body").on("mouseenter", function(){
-// 	$(".lang-hidden").addClass("hide")
-// });
+function arrowUp(){
+	$(".arrow").text("▲")
+};
 
+function arrowDown(){
+	$(".arrow").text("▼")
+};
 
-// $(".nav-btn").on("mouseenter", function(){
-//  	$(".nav-hidden").removeClass("hide")
-// });
+function navSlideDown(){
+	$("#nav-who-am-i").slideDown("200");
+	setTimeout(function(){$("#nav-my-work").slideDown("200")},200);
+	setTimeout(function(){$("#nav-contact").slideDown("200", arrowUp()
+		)}, 400);	
+};
 
-// $("body").on("mouseenter", function(){
-// 	$(".nav-hidden").addClass("hide")
-// });
-
-
-
-alert("Woohooo");
-
+function navSlideUp(){
+	$("#nav-contact").slideUp("200");
+	setTimeout(function(){$("#nav-my-work").slideUp("200")}, 200);
+	setTimeout(function(){$("#nav-who-am-i").slideUp("200", arrowDown()
+		)}, 400);
+};
 
 $(".header").on("click", '.nav-show', function(){
-	$("#nav-who-am-i").slideDown("250");
- 	setTimeout(function(){$("#nav-my-work").slideDown("250")},250);
- 	setTimeout(function(){$("#nav-contact").slideDown("250", function(){
- 		$(".arrow").text("▲")
- 		})},500);
- 	$(this).removeClass();
- 	$(this).addClass("nav-hide");
-}).on("click", '.nav-hide', function(){
-	console.log("hide clicked")
-	$("#nav-contact").slideUp("250");
-	setTimeout(function(){$("#nav-my-work").slideUp("250")}, 250);
-	setTimeout(function(){$("#nav-who-am-i").slideUp("250", function(){
-		$(".arrow").text("▼")
-	})}, 500);
+	navSlideDown();
+	$(this).removeClass();
+	$(this).addClass("nav-hide");
+	}).on("click", '.nav-hide', function(){
+	navSlideUp();
 	$(this).removeClass();
 	$(this).addClass("nav-show");
 });
 
 
-/* SLIDE */
+// PAGE SLIDE
 
 
 $("#nav-who-am-i").click(function() {
@@ -60,3 +53,4 @@ $("#nav-contact").click(function() {
     	scrollTop: $("#contact").offset().top
     }, 750);
 });
+
