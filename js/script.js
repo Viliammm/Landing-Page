@@ -54,3 +54,8 @@ $("#nav-contact").click(function() {
     }, 750);
 });
 
+$("#back-to-top").click(function() {
+	$('html,body').animate({
+		scrollTop: 0}, 750);
+});
+
