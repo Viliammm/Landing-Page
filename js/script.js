@@ -17,10 +17,10 @@
 
 
 
-alert("maybe now");
+alert("Woohooo");
 
 
-$(".header").on("mouseenter", '.nav-show', function(){
+$(".header").on("click", '.nav-show', function(){
 	$("#nav-who-am-i").slideDown("250");
  	setTimeout(function(){$("#nav-my-work").slideDown("250")},250);
  	setTimeout(function(){$("#nav-contact").slideDown("250", function(){
@@ -28,7 +28,7 @@ $(".header").on("mouseenter", '.nav-show', function(){
  		})},500);
  	$(this).removeClass();
  	$(this).addClass("nav-hide");
-}).on("mouseenter", '.nav-hide', function(){
+}).on("click", '.nav-hide', function(){
 	console.log("hide clicked")
 	$("#nav-contact").slideUp("250");
 	setTimeout(function(){$("#nav-my-work").slideUp("250")}, 250);
