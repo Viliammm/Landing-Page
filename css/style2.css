@@ -14,7 +14,6 @@ body{
 	max-width: 100%;
 	margin: 0 auto;
 	text-align: center;
-
 }
 
 footer{
@@ -51,7 +50,6 @@ h2{
 	font-size: 3rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
-
 }
 
 h3{
@@ -69,7 +67,6 @@ h4{
 	font-weight: 100;
 	line-height: 2rem;
 }
-
 
 hr{
 	background: rgb(11,3,45);
@@ -99,7 +96,6 @@ span{
 
 ul{
 	list-style: none;
-	
 }
 
 .cat-imgs{
@@ -115,7 +111,6 @@ ul{
 	background-color: #dcdde1;
 	border: none;
 	border-radius: 0.5rem;
-	/*box-shadow: 5px 5px #9fa1ad;*/
 	color: #060218;
 	font-family: 'Poiret One', sans-serif;
 	font-size: 1.2rem;
@@ -126,7 +121,6 @@ ul{
 	outline: none;
 	width: 12rem;
 }
-
 
 .contact-btn:hover{
 	background-color: #e1b12c;
@@ -415,10 +409,6 @@ p::selection{
 
 	.nav{
 		max-width: inherit;
-	}
-
-	.nav-hide{
-		display: inline-block;
 	}
 
 	.nav-show{
