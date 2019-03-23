@@ -61,11 +61,13 @@ h3{
 }
 
 h4{	
-	color: #e1b12c;
-	font-family: 'Poiret One', cursive;
-	font-size: 1.5rem;
+	color: #dcdde1;
+	font-family: 'Marcellus', serif;
+	font-size: 1.2rem;
 	font-weight: 100;
 	line-height: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 5rem;
 }
 
 hr{
@@ -107,7 +109,7 @@ ul{
 	margin-bottom: 0;
 }
 
-.contact-btn{
+.btn{
 	background-color: #dcdde1;
 	border: none;
 	border-radius: 0.5rem;
@@ -122,7 +124,7 @@ ul{
 	width: 12rem;
 }
 
-.contact-btn:hover{
+.btn:hover{
 	background-color: #e1b12c;
 	padding: 2px 0 0 0;
 }
