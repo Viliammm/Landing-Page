@@ -22,15 +22,20 @@ function navSlideUp(){
 		)}, 400);
 };
 
-$(".header").on("click", '.nav-show', function(){
-	navSlideDown();
-	$(this).removeClass();
-	$(this).addClass("nav-hide");
-	}).on("click", '.nav-hide', function(){
-	navSlideUp();
-	$(this).removeClass();
-	$(this).addClass("nav-show");
-});
+function navSlide(){
+	$(".header").on("click", '.nav-show', function(){
+		navSlideDown();
+		$(this).removeClass();
+		$(this).addClass("nav-hide");
+		}).on("click", '.nav-hide', function(){
+		navSlideUp();
+		$(this).removeClass();
+		$(this).addClass("nav-show");
+		$(this).css("color","white");
+	});
+}
+
+navSlide();
 
 
 // PAGE SLIDE
@@ -58,4 +63,14 @@ $("#back-to-top").click(function() {
 	$('html,body').animate({
 		scrollTop: 0}, 750);
 });
+
+
+
+
+
+
+
+
+
+
 
