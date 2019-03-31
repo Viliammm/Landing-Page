@@ -215,9 +215,11 @@ ul{
 }
 
 .stars{
-	position: absolute;
+	display: none;
 	left: 0;
-	width: 80%;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 ::selection{
