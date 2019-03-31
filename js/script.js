@@ -31,7 +31,6 @@ function navSlide(){
 		navSlideUp();
 		$(this).removeClass();
 		$(this).addClass("nav-show");
-		$(this).css("color","white");
 	});
 }
 
@@ -70,7 +69,6 @@ $("#back-to-top").click(function() {
 
 
 
+// STARS FADEIN
 
-
-
-
+$(".stars").fadeIn(10000);
