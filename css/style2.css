@@ -10,8 +10,11 @@ a:hover{
 
 body{
 	background-color: #020012;
+	background-image: url("../images/stars1.png");
+	
+	background-size: contain;
 	color: #dcdde1;
-	max-width: 100%;
+	
 	margin: 0 auto;
 	text-align: center;
 }
@@ -215,6 +218,7 @@ ul{
 }
 
 .stars{
+	background-size: cover;
 	display: none;
 	left: 0;
 	position: absolute;
