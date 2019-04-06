@@ -71,4 +71,4 @@ $("#back-to-top").click(function() {
 
 // STARS FADEIN
 
-$(".stars").fadeIn(10000);
+$(".stars").fadeIn(1000);
