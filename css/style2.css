@@ -10,9 +10,6 @@ a:hover{
 
 body{
 	background-color: #020012;
-	background-image: url("../images/stars.png");
-	background-repeat: no-repeat;
-	background-size: auto;
 	color: #dcdde1;
 	margin: 0 auto;
 	text-align: center;
@@ -102,13 +99,14 @@ ul{
 	list-style: none;
 }
 
-.cat-imgs{
-	max-width: 300px;
-	margin: 0 auto;
-}
-
-.cat-imgs img{
-	margin-bottom: 0;
+.background{
+	width: 100%;
+	height: 3000px;
+	display: none;
+	background-image: url("../images/stars.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	position: absolute;
 }
 
 .btn{
@@ -129,6 +127,15 @@ ul{
 .btn:hover{
 	background-color: #e1b12c;
 	padding: 2px 0 0 0;
+}
+
+.cat-imgs{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.cat-imgs img{
+	margin-bottom: 0;
 }
 
 .container{
