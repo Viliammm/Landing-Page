@@ -107,6 +107,7 @@ ul{
 	background-repeat: no-repeat;
 	background-size: auto;
 	position: absolute;
+	z-index: -1;
 }
 
 .btn{
