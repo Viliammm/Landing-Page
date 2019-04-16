@@ -199,6 +199,10 @@ ul{
 	font-weight: 600;
 }
 
+.note{
+	font-size: 0.8rem;
+}
+
 .portfolio-img{
 	width: 100%;
 	border-radius: 5%;
