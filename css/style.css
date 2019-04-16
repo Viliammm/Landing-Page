@@ -140,6 +140,11 @@ ul{
 	margin-bottom: 0;
 }
 
+.cat-imgs .note p{
+	font-size: 0.8rem;
+	text-align: center;
+}
+
 .container{
 	margin: 0 auto;
 	max-width: 650px;
@@ -197,10 +202,6 @@ ul{
 
 .h1-bold{
 	font-weight: 600;
-}
-
-.note{
-	font-size: 0.8rem;
 }
 
 .portfolio-img{
@@ -435,6 +436,11 @@ p::selection{
 	.nav-show{
 		display: none;
 	}
+
+	.cat-imgs .note p{
+		text-align: center;
+		margin-top: 2rem;
+}
 	
 	.second p{
 		margin: 5rem 0 3rem;
