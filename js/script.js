@@ -93,7 +93,7 @@ $(".btn").bind("touchstart",function(){
 })
 
 
-alert("fuck");
+alert("cock");
 
 
 
