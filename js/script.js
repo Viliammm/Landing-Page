@@ -69,7 +69,20 @@ scrollUp();
 // STARS FADEIN
 
 function starsFadeIn(){
-	$(".background").fadeIn(10000);
+	$(".background").fadeIn(5000);
 };
 
 starsFadeIn();
+
+//BTN ACTIVITY
+
+$(".btn").on("mouseover",function(){
+	$(this).addClass("btn-active");
+})
+
+$(".btn").on("mouseout",function(){
+	$(this).removeClass("btn-active");
+})
+
+
+alert("changed");
