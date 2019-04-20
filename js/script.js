@@ -85,15 +85,15 @@ starsFadeIn();
 // })
 
 $(".btn").bind("touchstart",function(){
-	$(this).css("background-color","red");
+	$(this).addClass("btn-active");
 	setTimeout(function(){
-		$(".btn").css("background-color", "green")},
+		$(".btn").removeClass("btn-active")},
 		1000);
 
 })
 
 
-alert("fuck");
+alert("cock");
 
 
 
