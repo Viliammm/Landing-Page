@@ -123,6 +123,7 @@ ul{
 	letter-spacing: 0.07rem;
 	margin-top: 5rem;
 	outline: none;
+	user-select: none;
 	width: 12rem;
 }
 
