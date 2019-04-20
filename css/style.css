@@ -126,7 +126,7 @@ ul{
 	width: 12rem;
 }
 
-.btn:hover{
+.btn-active{
 	background-color: #e1b12c;
 	padding: 2px 0 0 0;
 }
