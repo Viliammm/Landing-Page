@@ -86,8 +86,11 @@ $(".btn").on("mouseout",function(){
 
 $(".btn").bind("touchstart",function(){
 	$(this).addClass("btn-active");
-	setTimeout(function(){
-		$(".btn").removeClass("btn-active")},
-		100);
+});
+	
+$(".btn").bind("touchend",function(){
+		$(".btn").removeClass("btn-active");
+});
 
-})
+
+alert("how bout now")
