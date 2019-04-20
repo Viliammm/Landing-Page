@@ -88,16 +88,6 @@ $(".btn").bind("touchstart",function(){
 	$(this).addClass("btn-active");
 	setTimeout(function(){
 		$(".btn").removeClass("btn-active")},
-		1000);
+		100);
 
 })
-
-
-alert("is this it?");
-
-
-
-
-
-
-
