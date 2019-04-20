@@ -76,24 +76,24 @@ starsFadeIn();
 
 //BTN ACTIVITY
 
-$(".btn").on("mouseenter",function(){
-	$(this).addClass("btn-active");
-})
+// $(".btn").on("mouseenter",function(){
+// 	$(this).addClass("btn-active");
+// })
 
-$(".btn").on("mouseout",function(){
-	$(this).removeClass("btn-active");
-})
+// $(".btn").on("mouseout",function(){
+// 	$(this).removeClass("btn-active");
+// })
 
 $(".btn").bind("touchstart",function(){
-	$(this).addClass("btn-active");
+	$(this).css("background-color","red");
 	setTimeout(function(){
-		$(this).removeClass("btn-active")},
+		$(this).style("btn-active")},
 		1000);
 
 })
 
 
-alert("OMG");
+alert("fuck");
 
 
 
