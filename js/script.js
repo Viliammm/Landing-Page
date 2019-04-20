@@ -81,6 +81,9 @@ function btnMobile(){
 
 	$(".btn").bind("touchstart",function(){
 		$(this).addClass("btn-active");
+		setTimeout(function(){
+			$(".btn").removeClass("btn-active")},
+			500);
 	});
 
 	$(".btn").bind("touchend",function(){
@@ -104,4 +107,4 @@ function btnPC(){
 btnMobile();
 btnPC();
 
-alert("heloo")
+alert("OGMGMGMG")
