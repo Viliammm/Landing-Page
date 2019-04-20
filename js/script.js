@@ -87,13 +87,13 @@ starsFadeIn();
 $(".btn").bind("touchstart",function(){
 	$(this).css("background-color","red");
 	setTimeout(function(){
-		$(this).css("background-color", "green")},
+		$(".btn").css("background-color", "green")},
 		1000);
 
 })
 
 
-alert("cock");
+alert("fuck");
 
 
 
