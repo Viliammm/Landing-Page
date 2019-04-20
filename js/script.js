@@ -84,5 +84,10 @@ $(".btn").on("mouseout",function(){
 	$(this).removeClass("btn-active");
 })
 
+$("btn").click(function(){
+	$(this).addClass("btn-inactive");
 
-alert("changed");
+})
+
+
+alert("CHANGED");
