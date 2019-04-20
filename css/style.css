@@ -36,7 +36,8 @@ footer p{
 }
 
 h1{
-	color: #e1b12c;
+	/*color: #e1b12c;*/
+	color: red;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
