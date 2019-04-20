@@ -77,34 +77,25 @@ starsFadeIn();
 //BTN ACTIVITY
 
 function btnMobile(){
-	
-
 	$(".btn").bind("touchstart",function(){
 		$(this).addClass("btn-active");
 		setTimeout(function(){
 			$(".btn").removeClass("btn-active")},
 			500);
 	});
-
 	$(".btn").bind("touchend",function(){
 			$(".btn").removeClass("btn-active");
 	});
-
 };
 
-function btnPC(){
-
+function btnDesktop(){
 	$(".btn").on("mouseenter",function(){
 		$(this).addClass("btn-active");
 	});
-
 	$(".btn").on("mouseout",function(){
 		$(this).removeClass("btn-active");
 	});
-		
-	}
+}
 
 btnMobile();
-btnPC();
-
-alert("OGMGMGMG")
+btnDesktop();
