@@ -76,7 +76,6 @@ starsFadeIn();
 
 //BTN ACTIVITY
 
-
 function btnOn(){
 	$(".btn").on("mouseenter",function(){
 		$(this).addClass("btn-active");
@@ -87,7 +86,6 @@ function btnOn(){
 	});
 };
 
-
 function btnOff(){
 	$(".btn").on("mouseout",function(){
 		$(this).removeClass("btn-active");
@@ -97,3 +95,8 @@ function btnOff(){
 			$(".btn").removeClass("btn-active");
 	});
 }
+
+btnOn();
+btnOff();
+
+alert("hi")
