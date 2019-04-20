@@ -76,27 +76,32 @@ starsFadeIn();
 
 //BTN ACTIVITY
 
-function btnOn(){
-	$(".btn").on("mouseenter",function(){
-		$(this).addClass("btn-active");
-	});
+function btnMobile(){
+	
 
 	$(".btn").bind("touchstart",function(){
 		$(this).addClass("btn-active");
 	});
+
+	$(".btn").bind("touchend",function(){
+			$(".btn").removeClass("btn-active");
+	});
+
 };
 
-function btnOff(){
+function btnPC(){
+
+	$(".btn").on("mouseenter",function(){
+		$(this).addClass("btn-active");
+	});
+
 	$(".btn").on("mouseout",function(){
 		$(this).removeClass("btn-active");
 	});
 		
-	$(".btn").bind("touchend",function(){
-			$(".btn").removeClass("btn-active");
-	});
-}
+	}
 
-btnOn();
-btnOff();
+btnMobile();
+btnPC();
 
-alert("hi")
+alert("heloo")
