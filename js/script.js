@@ -76,7 +76,7 @@ starsFadeIn();
 
 //BTN ACTIVITY
 
-$(".btn").on("mouseover",function(){
+$(".btn").on("mouseenter",function(){
 	$(this).addClass("btn-active");
 })
 
@@ -84,10 +84,20 @@ $(".btn").on("mouseout",function(){
 	$(this).removeClass("btn-active");
 })
 
-$(".btn").click(function(){
-	$(this).addClass("btn-inactive");
+$(".btn").bind("touchstart",function(){
+	$(this).addClass("btn-active");
+	setTimeout(function(){
+		$(this).removeClass("btn-active")},
+		1000);
 
 })
 
 
-alert("FUUUUU");
+alert("OMG");
+
+
+
+
+
+
+
