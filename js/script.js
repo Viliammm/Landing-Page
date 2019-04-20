@@ -76,21 +76,24 @@ starsFadeIn();
 
 //BTN ACTIVITY
 
-$(".btn").on("mouseenter",function(){
-	$(this).addClass("btn-active");
-})
 
-$(".btn").on("mouseout",function(){
-	$(this).removeClass("btn-active");
-})
+function btnOn(){
+	$(".btn").on("mouseenter",function(){
+		$(this).addClass("btn-active");
+	});
 
-$(".btn").bind("touchstart",function(){
-	$(this).addClass("btn-active");
-});
-	
-$(".btn").bind("touchend",function(){
-		$(".btn").removeClass("btn-active");
-});
+	$(".btn").bind("touchstart",function(){
+		$(this).addClass("btn-active");
+	});
+};
 
 
-alert("how bout now")
+function btnOff(){
+	$(".btn").on("mouseout",function(){
+		$(this).removeClass("btn-active");
+	});
+		
+	$(".btn").bind("touchend",function(){
+			$(".btn").removeClass("btn-active");
+	});
+}
