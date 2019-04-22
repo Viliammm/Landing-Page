@@ -4,10 +4,6 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
-	color: #e1b12c;
-}
-
 body{
 	background-color: #020012;
 	color: #dcdde1;
@@ -36,7 +32,7 @@ footer p{
 }
 
 h1{
-	color: #e1b12c;
+	color: red;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
