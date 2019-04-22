@@ -30,7 +30,7 @@ function navSlide(){
 		}).on("click", '.nav-hide', function(){
 		navSlideUp();
 		$(this).removeClass();
-		$(this).addClass("nav-show white");
+		$(this).addClass("nav-show");
 	});
 };
 
@@ -127,4 +127,4 @@ linkMobile();
 linkDesktop();
 
 
-alert("pretty please?");
+alert("now?");
