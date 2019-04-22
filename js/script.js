@@ -84,7 +84,7 @@ function btnMobile(){
 			500);
 	});
 	$(".btn").on("touchend",function(){
-			$(".btn").removeClass("btn-active");
+		$(this).removeClass("btn-active");
 	});
 };
 
@@ -100,4 +100,31 @@ function btnDesktop(){
 btnMobile();
 btnDesktop();
 
-alert("nope?");
+// LINK ACTIVITY
+
+function linkMobile(){
+	$("a").on("touchstart", function(){
+		$(this).addClass("yellow");
+		setTimeout(function(){
+			$("a").removeClass("yellow")},
+			500);
+	});
+	$("a").on("touchend", function(){
+		$(this).removeClass(".yellow");
+	});
+}
+
+function linkDesktop(){
+	$("a").on("mouseenter",function(){
+		$(this).addClass("yellow");
+	});
+	$("a").on("mouseout",function(){
+		$(this).removeClass("yellow");
+	});
+};
+
+linkMobile();
+linkDesktop();
+
+
+alert("pretty please?");
