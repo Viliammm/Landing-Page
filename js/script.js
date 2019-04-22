@@ -78,22 +78,22 @@ starsFadeIn();
 
 function btnMobile(){
 	$(".btn").bind("touchstart",function(){
-		$(this).addClass("btn-active");
+		$(this).addClass("btn-active","yellow");
 		setTimeout(function(){
-			$(".btn").removeClass("btn-active")},
+			$(".btn").removeClass("btn-active","yellow")},
 			500);
 	});
 	$(".btn").bind("touchend",function(){
-			$(".btn").removeClass("btn-active");
+			$(".btn").removeClass("btn-active","yellow");
 	});
 };
 
 function btnDesktop(){
 	$(".btn").on("mouseenter",function(){
-		$(this).addClass("btn-active");
+		$(this).addClass("btn-active","yellow");
 	});
 	$(".btn").on("mouseout",function(){
-		$(this).removeClass("btn-active");
+		$(this).removeClass("btn-active","yellow");
 	});
 }
 
