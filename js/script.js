@@ -26,7 +26,7 @@ function navSlide(){
 	$(".header").on("click", '.nav-show', function(){
 		navSlideDown();
 		$(this).removeClass();
-		$(this).addClass("nav-hide yellow");
+		$(this).addClass("nav-hide");
 		}).on("click", '.nav-hide', function(){
 		navSlideUp();
 		$(this).removeClass();
@@ -127,4 +127,4 @@ linkMobile();
 linkDesktop();
 
 
-alert("now?");
+alert("nowwwwww?");
