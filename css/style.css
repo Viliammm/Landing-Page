@@ -128,7 +128,6 @@ ul{
 }
 
 .btn-active{
-	background-color: #e1b12c;
 	padding: 2px 0 0 0;
 }
 
@@ -239,6 +238,10 @@ ul{
 	top: 0;
 	width: 100%;
 	z-index: -1;
+}
+
+.yellow{
+	background-color: #e1b12c;
 }
 
 ::selection{
