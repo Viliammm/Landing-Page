@@ -77,25 +77,27 @@ starsFadeIn();
 //BTN ACTIVITY
 
 function btnMobile(){
-	$(".btn").bind("touchstart",function(){
-		$(this).addClass("btn-active yellow");
+	$(".btn").on("touchstart",function(){
+		$(this).addClass("btn-active");
 		setTimeout(function(){
-			$(".btn").removeClass("btn-active yellow")},
+			$(".btn").removeClass("btn-active")},
 			500);
 	});
-	$(".btn").bind("touchend",function(){
-			$(".btn").removeClass("btn-active yellow");
+	$(".btn").on("touchend",function(){
+			$(".btn").removeClass("btn-active");
 	});
 };
 
 function btnDesktop(){
 	$(".btn").on("mouseenter",function(){
-		$(this).addClass("btn-active yellow");
+		$(this).addClass("btn-active");
 	});
 	$(".btn").on("mouseout",function(){
-		$(this).removeClass("btn-active yellow");
+		$(this).removeClass("btn-active");
 	});
 }
 
 btnMobile();
 btnDesktop();
+
+alert("will this work?");
