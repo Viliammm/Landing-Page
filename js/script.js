@@ -23,14 +23,14 @@ function navSlideUp(){
 };
 
 function navSlide(){
-	$(".header").on("click", '.nav-show', function(){
+	$(".header").on("click touchstart", '.nav-show', function(){
 		navSlideDown();
 		$(this).removeClass();
-		$(this).addClass("nav-hide");
-		}).on("click", '.nav-hide', function(){
+		$(this).addClass("nav-hide yellow");
+		}).on("click touchstart", '.nav-hide', function(){
 		navSlideUp();
 		$(this).removeClass();
-		$(this).addClass("nav-show");
+		$(this).addClass("nav-show white");
 	});
 };
 
@@ -100,4 +100,4 @@ function btnDesktop(){
 btnMobile();
 btnDesktop();
 
-alert("will this work?");
+alert("lets see");
