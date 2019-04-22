@@ -125,6 +125,3 @@ function linkDesktop(){
 
 linkMobile();
 linkDesktop();
-
-
-alert("nowwwwww?");
