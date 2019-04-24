@@ -92,10 +92,6 @@ span{
 	clear: left;
 }
 
-ul{
-	list-style: none;
-}
-
 .background{
 	width: 100%;
 	height: 3000px;
@@ -201,6 +197,15 @@ ul{
 	font-weight: 600;
 }
 
+.italics{
+	font-style: italic;
+}
+
+.jobs ul{
+	list-style: square;
+	margin-top: -0.5rem;
+}
+
 .portfolio-img{
 	width: 100%;
 	border-radius: 5%;
@@ -212,6 +217,10 @@ ul{
 
 .secondary{
 	padding-left: 2rem;
+}
+
+.skills ul{
+	list-style: none;
 }
 
 .third a{
@@ -422,7 +431,7 @@ p::selection{
 	}
 
 	.hide{
-		display: inline-block;
+		display: inline;
 	}
 
 	.lang{
