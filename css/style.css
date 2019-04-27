@@ -190,6 +190,10 @@ span{
 	max-width: 4rem;
 }
 
+.date-hyphen{
+	text-align: center;
+}
+
 .first{
 	margin-top: 5rem;
 }
@@ -235,10 +239,6 @@ span{
 .third p,
 .fourth p{
 	margin-top: 5rem;
-}
-
-.date-hyphen{
-	text-align: center;
 }
 
 .stars{
