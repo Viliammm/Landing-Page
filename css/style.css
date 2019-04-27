@@ -163,6 +163,7 @@ span{
 .cv p{
 	font-size: 1rem;
 	letter-spacing: 0;
+	line-height: 0.2rem;
 }
 
 .cv td{
@@ -234,6 +235,10 @@ span{
 .third p,
 .fourth p{
 	margin-top: 5rem;
+}
+
+.date-hyphen{
+	text-align: center;
 }
 
 .stars{
@@ -373,12 +378,14 @@ p::selection{
 		width: 75%;
 	}
 
-	.container p{
-		line-height: 2rem;
-	}
-
 	.me-img{
 		width: 225px;
+	}
+
+	.second
+	.third
+	.fourth p{
+		line-height: 2rem;
 	}
 }
 
@@ -480,7 +487,9 @@ p::selection{
 		width: 60%;
 	}
 
-	.container p{
+	.second
+	.third
+	.fourth p{
 		line-height: 2.5rem;
 	}
 }
