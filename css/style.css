@@ -32,7 +32,7 @@ footer p{
 }
 
 h1{
-	color: red;
+	color: green;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
@@ -51,7 +51,7 @@ h2{
 h3{
 	color: #fbc531;
 	font-family: 'Advent Pro', sans-serif;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 }
@@ -59,7 +59,7 @@ h3{
 h4{	
 	color: #dcdde1;
 	font-family: 'Marcellus', serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 100;
 	line-height: 2rem;
 	margin-bottom: 1rem;
