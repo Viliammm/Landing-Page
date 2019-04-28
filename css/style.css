@@ -51,6 +51,7 @@ h2{
 	font-size: 3rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
+	user-select: none;
 }
 
 h3{
@@ -59,6 +60,7 @@ h3{
 	font-size: 1.6rem;
 	font-weight: 100;
 	letter-spacing: 0.2rem;
+	user-select: none;
 }
 
 h4{	
@@ -158,12 +160,28 @@ span{
 	padding-top: 2rem;
 }
 
+.cv a::selection{
+	color: #020012;
+}
+
 .cv h2{
 	font-size: 2.5rem;
 }
 
+.cv h3{
+	user-select: text;
+}
+
+.cv h4{
+	margin: 0 auto; 
+}
+
 .cv li{
 	line-height: 1.5rem;
+}
+
+.cv li::selection{
+	color: #020012;
 }
 
 .cv p{
@@ -172,9 +190,17 @@ span{
 	line-height: 0.2rem;
 }
 
+.cv span::selection{
+	color: #020012;
+}
+
 .cv td{
 	padding-right: 1rem;
 	padding-bottom: 1rem;
+}
+
+.cv td::selection{
+	color: #020012;
 }
 
 .cv-body{
@@ -183,13 +209,13 @@ span{
 	text-align: left;
 }
 
-.cv-head h4{
-	margin: 0 auto; 
-}
-
 .cv-head a{
 	color: #e1b12c;
 	font-family: 'Poiret One', cursive;
+}
+
+.cv-head h2{
+	user-select: text;
 }
 
 .date{
@@ -204,8 +230,16 @@ span{
 	margin-top: 5rem;
 }
 
+.footer{
+	user-select: none;
+}
+
 .h1-bold{
 	font-weight: 600;
+}
+
+.header{
+	user-select: none;
 }
 
 .italics{
