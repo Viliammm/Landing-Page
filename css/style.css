@@ -32,7 +32,7 @@ footer p{
 }
 
 h1{
-	color: red;
+	color: white;
 	font-family: 'Poiret One', cursive;   
 	font-size: 5rem;
 	font-weight: 100;
@@ -43,7 +43,7 @@ h1{
 h2{
 	color: #e1b12c;
 	font-family: 'Advent Pro', sans-serif;
-	font-size: 3rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	letter-spacing: 0.2rem;
 }
@@ -51,7 +51,7 @@ h2{
 h3{
 	color: #fbc531;
 	font-family: 'Advent Pro', sans-serif;
-	font-size: 1.6rem;
+	font-size: 2rem;
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 }
@@ -59,7 +59,7 @@ h3{
 h4{	
 	color: #dcdde1;
 	font-family: 'Marcellus', serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: 100;
 	line-height: 2rem;
 	margin-bottom: 1rem;
@@ -410,7 +410,7 @@ p::selection{
 	}
 
 	h3{
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 
 	p{
