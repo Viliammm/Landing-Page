@@ -93,6 +93,8 @@ p{
 	letter-spacing: 0.15rem;
 	line-height: 1.8rem;
 	user-select: text;
+	-moz-user-select: text;
+  	-webkit-user-select: text;
 }
 
 span{
@@ -101,6 +103,8 @@ span{
 
 table{
 	user-select: text;
+	-moz-user-select: text;
+  	-webkit-user-select: text;
 }
 
 .background{
@@ -172,6 +176,8 @@ table{
 
 .cv h3{
 	user-select: text;
+	-moz-user-select: text;
+  	-webkit-user-select: text;
 }
 
 .cv h4{
@@ -181,6 +187,8 @@ table{
 .cv li{
 	line-height: 1.5rem;
 	user-select: text;
+	-moz-user-select: text;
+  	-webkit-user-select: text;
 }
 
 .cv li::selection{
@@ -219,6 +227,8 @@ table{
 
 .cv-head h2{
 	user-select: text;
+	-moz-user-select: text;
+  	-webkit-user-select: text;
 }
 
 .date{
