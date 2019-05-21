@@ -307,7 +307,7 @@ table{
 ::selection{
 	background-color: #dcdde1;
 	-webkit-background-color: #dcdde1;
-	-moz-background-color: #dcdde1;
+	-moz-background-color: red;
 }
 
 p::selection{
