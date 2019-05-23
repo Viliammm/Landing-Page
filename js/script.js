@@ -12,14 +12,14 @@ function navSlideDown(){
 	$("#nav-who-am-i").slideDown("200");
 	// setTimeout(function(){$("#nav-my-work").slideDown("200")},200);
 	setTimeout(function(){$("#nav-contact").slideDown("200", arrowUp()
-		)}, 400);	
+		)}, 200);	
 };
 
 function navSlideUp(){
 	$("#nav-contact").slideUp("200");
 	// setTimeout(function(){$("#nav-my-work").slideUp("200")}, 200);
 	setTimeout(function(){$("#nav-who-am-i").slideUp("200", arrowDown()
-		)}, 400);
+		)}, 200);
 };
 
 function navSlide(){
