@@ -97,6 +97,10 @@ p{
   	-webkit-user-select: text;
 }
 
+p::selection{
+	color: #020012;
+}
+
 span{
 	clear: left;
 }
@@ -136,20 +140,6 @@ table{
 .btn-active{
 	background-color: #e1b12c;
 	padding: 2px 0 0 0;
-}
-
-.cat-imgs{
-	max-width: 300px;
-	margin: 0 auto;
-}
-
-.cat-imgs img{
-	margin-bottom: 0;
-}
-
-.cat-imgs .note p{
-	font-size: 0.8rem;
-	text-align: center;
 }
 
 .container{
@@ -265,6 +255,14 @@ table{
 	padding-left: 0;
 }
 
+.second a{
+	color: #fbc531;
+}
+
+.second a:hover{
+	color: #e1b12c;
+}
+
 .secondary{
 	padding-left: 2rem;
 }
@@ -273,27 +271,8 @@ table{
 	list-style: none;
 }
 
-.third a{
-	color: #fbc531;
-}
-
-.third a:hover{
-	color: #e1b12c;
-}
-
-.third p,
 .fourth p{
 	margin-top: 5rem;
-}
-
-.stars{
-	background-size: cover;
-	display: none;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: -1;
 }
 
 .yellow{
@@ -310,10 +289,6 @@ table{
 
 ::-moz-selection{
 	background-color: #767781;
-}
-
-p::selection{
-	color: #020012;
 }
 
 /* ----- HEADER ------ */
@@ -383,18 +358,6 @@ p::selection{
 		font-size: 1.3rem;
 	}
 
-	.cat-imgs{
-		max-width: inherit;
-	}
-
-	.cat-imgs img{
-		width: 180px;
-	}
-
-	.cat-img1{
-		margin-right: 5%;
-	}
-
 	.container{
 		width: 85%;
 	}
@@ -408,18 +371,6 @@ p::selection{
 /* --- MICROBREAKPOINT FOR 600PX --- */
 
 @media only screen and (min-width: 600px){
-	
-	.cat-imgs{
-		max-width: inherit;
-	}
-
-	.cat-imgs img{
-		width: 180px;
-	}
-
-	.cat-img1{
-		margin-right: 10%;
-	}
 
 	.container{
 		width: 75%;
@@ -430,7 +381,6 @@ p::selection{
 	}
 
 	.second
-	.third
 	.fourth p{
 		line-height: 2rem;
 	}
@@ -462,14 +412,7 @@ p::selection{
 
 	p{
 		font-size: 1.35rem;
-	}
-
-	.cat-imgs img{
-		width: 200px;
-	}
-
-	.cat-img1{
-		margin-right: 20%;
+		line-height: 2.2rem;
 	}
 
 	.container{
@@ -504,15 +447,14 @@ p::selection{
 	.nav-show{
 		display: none;
 	}
-
-	.cat-imgs .note p{
-		text-align: center;
-		margin-top: 2rem;
-}
 	
 	.second p{
-		margin: 5rem 0 3rem;
+		margin: 1rem 0 3rem;
 		text-align: left;
+	}	
+
+	.about-me p{
+		margin: 5rem 0 3rem;
 	}	
 }
 
@@ -522,20 +464,11 @@ p::selection{
 		margin: 8rem auto 6rem;
 	}
 
-	.cat-imgs img{
-		width: 200px;
-	}
-
-	.cat-img1{
-		margin-right: 25%;
-	}
-
 	.container{
 		width: 60%;
 	}
 
 	.second
-	.third
 	.fourth p{
 		line-height: 2.5rem;
 	}
@@ -547,7 +480,6 @@ p::selection{
 		margin-top: 15rem;
 	}
 
-	.third p,
 	.fourth p{	
 		margin-top: 7rem;
 	}
